@@ -1,10 +1,7 @@
-<template>
-  <div>
-    <router-view />
-    <Toast />
-  </div>
-</template>
-
 <script setup>
-import Toast from '@/components/Toast.vue'
+import HelloWorld from './components/HelloWorld.vue'
 </script>
+
+<template>
+  <HelloWorld />
+</template>
