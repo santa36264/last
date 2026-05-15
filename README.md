@@ -6,7 +6,7 @@
 
 **Project Name:** Qelem Meda Smart Inventory & Sales Management System
 **Built for:** Qelem Meda Technologies
-**Stack:** Laravel 12 + Filament 3 (backend) · Vue 3 + Vite (frontend) · SQLite
+**Stack:** Laravel 12 + Filament 3 (backend) · Vue 3 + Vite (frontend) · mysql
 
 ---
 
