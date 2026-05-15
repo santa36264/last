@@ -44,3 +44,22 @@ Sales Officer (Frontend)          Manager (Backend /admin)
 ```
 
 ---
+
+## 7. How to Run the Project
+
+```bash
+# Backend
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve
+# → runs on http://localhost:8000
+# → admin panel: http://localhost:8000/admin
+
+# Frontend
+cd frontend
+npm install
+npx vite
+# → runs on http://localhost:5173
