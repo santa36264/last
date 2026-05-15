@@ -15,7 +15,7 @@
 ### User Roles
 | Role | Access |
 |---|---|
-| **Manager** | Filament admin panel at `/admin` — full control |
+| **Manager** | Filament admin panel at `http://127.0.0.1:8000/admin` — full control |
 | **Sales Officer** | Vue frontend at `localhost:5173` — POS operations only |
 
 ---
